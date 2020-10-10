@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var s1: UILabel!
+    
+     @IBOutlet weak var s2: UILabel!
+    
+     @IBOutlet weak var s3: UILabel!
+    
+     @IBOutlet weak var s4: UILabel!
+    
     @IBOutlet weak var b1: UIButton!
     
     @IBOutlet weak var b2: UIButton!
@@ -25,10 +33,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        b1.setBackgroundImage(UIImage(named: "justin beiber"), for: .normal)
-        b2.setBackgroundImage(UIImage(named: "pitbull"), for: .normal)
-        b3.setBackgroundImage(UIImage(named: "ariana"), for: .normal)
-        b4.setBackgroundImage(UIImage(named: "shakera"), for: .normal)
+        b1.setBackgroundImage(UIImage(named: selectedArtists.songs[0].img), for: .normal)
+        b2.setBackgroundImage(UIImage(named: selectedArtists.songs[1].img), for: .normal)
+        b3.setBackgroundImage(UIImage(named: selectedArtists.songs[2].img), for: .normal)
+        b4.setBackgroundImage(UIImage(named: selectedArtists.songs[3].img), for: .normal)
+        
+        s1.text = selectedArtists.songs[0].name
+        s2.text = selectedArtists.songs[1].name
+        s3.text = selectedArtists.songs[2].name
+        s4.text = selectedArtists.songs[3].name
         // Do any additional setup after loading the view.
     }
     
@@ -54,11 +67,13 @@ class ViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) { var index = sender as! Int
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let index = sender as! Int
         let VC = segue.destination as! songViewController
         
         
-        VC.selectedArtists = artists[index]
+        VC.selectedArtists = selectedArtists.songs[index]
+        
     // ادزه VC.img.image = UIImage(named: song.pics)
         
         // Get the new view controller using segue.destination.

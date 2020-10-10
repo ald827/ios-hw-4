@@ -9,14 +9,14 @@
 import UIKit
 
 class songViewController: UIViewController {
-    var selectedArtists: singer! 
+    var selectedArtists: song!
     @IBOutlet weak var img: UIImageView!
     
     @IBOutlet weak var labell: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        img.image = UIImage(named: selectedArtists.pics)
+        img.image = UIImage(named: selectedArtists.img)
         labell.text = selectedArtists.name
         // Do any additional setup after loading the view.
     }

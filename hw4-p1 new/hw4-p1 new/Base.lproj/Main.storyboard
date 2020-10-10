@@ -94,28 +94,28 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="justin beiber" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spr-QY-eKK">
-                                <rect key="frame" x="20" y="205" width="255" height="44"/>
+                                <rect key="frame" x="20" y="198" width="325" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ariana" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hed-S6-gUz">
-                                <rect key="frame" x="20" y="592" width="197" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shakera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meW-6K-geu">
-                                <rect key="frame" x="20" y="793" width="197" height="29"/>
+                                <rect key="frame" x="20" y="580" width="306" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pitbull" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abY-ZK-vHm">
-                                <rect key="frame" x="20" y="397" width="197" height="49"/>
+                                <rect key="frame" x="20" y="369" width="314" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shakera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meW-6K-geu">
+                                <rect key="frame" x="20" y="775" width="254" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -131,6 +131,10 @@
                         <outlet property="b2" destination="Fdn-Yt-Iiq" id="uf1-qj-eeZ"/>
                         <outlet property="b3" destination="Ml9-i8-gNR" id="Kbf-0U-jjs"/>
                         <outlet property="b4" destination="Kid-yr-uWC" id="MwE-dE-i9b"/>
+                        <outlet property="s1" destination="spr-QY-eKK" id="ckG-pD-cu4"/>
+                        <outlet property="s2" destination="abY-ZK-vHm" id="wfE-M5-xR9"/>
+                        <outlet property="s3" destination="Hed-S6-gUz" id="mos-oR-yoX"/>
+                        <outlet property="s4" destination="meW-6K-geu" id="yXH-MP-H9B"/>
                         <segue destination="LFR-j6-BVP" kind="show" identifier="details" id="SbL-oZ-LQI"/>
                     </connections>
                 </viewController>
@@ -140,7 +144,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </objects>
-            <point key="canvasLocation" x="1879.7101449275365" y="-74.330357142857139"/>
+            <point key="canvasLocation" x="2079.7101449275365" y="-86.383928571428569"/>
         </scene>
         <!--Song View Controller-->
         <scene sceneID="yhB-Eh-wnf">
@@ -186,7 +190,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KtJ-ie-coX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647.826086956522" y="118.52678571428571"/>
+            <point key="canvasLocation" x="2786" y="121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6eO-Y0-iZT">
